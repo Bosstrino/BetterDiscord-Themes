@@ -1,11 +1,11 @@
-//META{"name":"Darker Sides","description":"A slightly darker Night Mode, focused on dimming the sides. Additional features being a repositioned typing notification, and less spacing between roles.","author":"Bosstrino","version":"1.0"}*//{}
+//META{"name":"Darker Sides","description":"A slightly darker Night Mode, focused on dimming the sides. Additional features being a repositioned typing notification that allows some more characters to fit, and less spacing between roles.","author":"Bosstrino","version":"1.1"}*//{}
 
 /*Color edits*/
 .guilds-wrapper{
     background:#09090a;
 }
 
-.guild-header header, .search-bar, .title-wrap, .friends-header,  .tab-bar-header{
+.guild-header header, .search-bar, .title-wrap, .friends-header, .header-1tSljs, .popout-menu-item{
  	background:#121215 !important;   
 }
 
@@ -13,11 +13,11 @@
 	background-color:#121215 !important;    
 }
 
-.guild-channels, .private-channels, .scroller.channel-members, .tab-bar.SIDE, .btn:after, .btn.btn-settings{
+.guild-channels, .private-channels, .scroller.channel-members, .scroller.scroller-NXV0-d, .btn:after, .btn.btn-settings{
  	background-color:#22242a;   
 }
 
-.account, .chat form{
+.container-iksrDt, .chat form{
     background-color:#121215 !important;
 }
 
@@ -25,7 +25,10 @@
  	background-color:rgba(0,0,0,0) !important;  
 }
 
-
+.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyBetween-1d1Hto.alignStretch-1hwxMa.noWrap-v6g9vO.ui-video-inner{	
+	/*Background color of private call header*/
+	background-color: #0e0e10 !important;   
+}
 
 /*Shape and positioning edits*/
 
@@ -43,13 +46,19 @@
 	height:5px;
 }
 
-.account{
-    padding-bottom:11px;
+.container-iksrDt{ /*account*/
+    padding-top:15px;
+    padding-bottom:15px;
+	margin-bottom:0px; /*Eliminates a line of mismatched color at the bottom.*/
 }
+
+/* .container-3lnMWU{ */
+	/* margin-top */
+	
+/* } */
 
 .chat form{
     margin:0px;
-    padding-bottom:0px;
     padding-right:10px;
     padding-left:10px;
     border-radius:0px 0px 0px 0px;
