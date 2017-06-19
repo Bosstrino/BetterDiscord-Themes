@@ -30,6 +30,11 @@
 	background-color: #0e0e10 !important;   
 }
 
+.sidebar-region{ /*Sidebar in settings*/
+ background-color:#101018 !important;  
+}
+
+
 /*Shape and positioning edits*/
 
 .guild-inner{
