@@ -13,7 +13,7 @@
 	background-color:#121215 !important;    
 }
 
-.guild-channels, .private-channels, .scroller.channel-members, .scroller.scroller-NXV0-d, .btn:after, .btn.btn-settings{
+.private-channels, .scrollerWrap-2uBjct, .scroller.channel-members{
  	background-color:#22242a;   
 }
 
@@ -25,13 +25,17 @@
  	background-color:rgba(0,0,0,0) !important;  
 }
 
-.flex-lFgbSz.flex-3B1Tl4.vertical-3X17r5.flex-3B1Tl4.directionColumn-2h-LPR.justifyBetween-1d1Hto.alignStretch-1hwxMa.noWrap-v6g9vO.ui-video-inner{	
-	/*Background color of private call header*/
-	background-color: #0e0e10 !important;   
+	/*Left Sidebar in settings*/
+.sidebar-region{ 
+	background-color:#101018 !important;  
 }
 
-.sidebar-region{ /*Sidebar in settings*/
- background-color:#101018 !important;  
+
+/*Private call header edits*/
+.container-3lnMWU{
+ 	background-color:#191A1F;
+ 	padding-bottom:4px;
+ 	margin-bottom:-1px
 }
 
 
@@ -50,17 +54,12 @@
 .channel-members h2{
 	height:5px;
 }
-
-.container-iksrDt{ /*account*/
+	/*account*/
+.container-iksrDt{ 
     padding-top:15px;
     padding-bottom:15px;
 	margin-bottom:0px; /*Eliminates a line of mismatched color at the bottom.*/
 }
-
-/* .container-3lnMWU{ */
-	/* margin-top */
-	
-/* } */
 
 .chat form{
     margin:0px;
